@@ -1,0 +1,14 @@
+<html>
+
+<body>
+
+<form action="">
+<input type="text" name="first" />
+<br>
+<input type="text" name="second" />
+<br>
+<input type="submit" value="submit" />
+
+</form>
+</body>
+</html>

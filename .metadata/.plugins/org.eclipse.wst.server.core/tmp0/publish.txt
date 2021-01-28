@@ -1,0 +1,14 @@
+#Tomcat publish data
+#Thu Jan 28 17:48:39 IST 2021
+org.eclipse.jst.jee.server\:Day12_filter=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Day12_filter
+org.eclipse.jst.jee.server\:Cookies=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Cookies
+org.eclipse.jst.jee.server\:Day12_Assignment=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Day12_Assignment
+org.eclipse.jst.jee.server\:Week=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Week
+org.eclipse.jst.jee.server\:HelloServelet=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/HelloServelet
+org.eclipse.jst.jee.server\:Day13_mvc=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Day13_mvc
+org.eclipse.jst.jee.server\:LoginSystem=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/LoginSystem
+org.eclipse.jst.jee.server\:Jsp_demo=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Jsp_demo
+org.eclipse.jst.jee.server\:Day13_hiberbate_UI=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Day13_hiberbate_UI
+org.eclipse.jst.jee.server\:RedirectServelet=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/RedirectServelet
+org.eclipse.jst.jee.server\:Day13=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Day13
+org.eclipse.jst.jee.server\:Day12=/home/thinkitive/Downloads/apache-tomcat-9.0.41/wtpwebapps/Day12

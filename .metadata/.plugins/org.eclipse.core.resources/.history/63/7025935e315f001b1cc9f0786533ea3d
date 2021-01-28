@@ -1,0 +1,9 @@
+package com.thinkitive;
+
+public class Demo {
+  public static void main(String[] args) {
+	MyDatabaseOperations mb=new MyDatabaseOperations();
+	
+			mb.searchData("aman", "keshwani@123");
+}
+}
