@@ -1,9 +1,0 @@
-<form action="Operation"> 
-<input type="text" name="empid">
-<input type="text" name="empname">
-<input type="text" name="empsal">
-<input type="submit" value="submit">
-<input type="submit" value="update">
-<input type="submit" value="delete">
-
-</form>
