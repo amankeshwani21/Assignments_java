@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<class name="com.example.demo.Student" table="student">
+		<id name="sid" column="sid" type="int">
+			<generator class="assigned"></generator>
+		</id>
+      <property name="marks" column="marks" type="int"></property>
+	  <property name="sname" column="name" type="string"></property>
+	  <property name="password" column="password" type="string"></property>
+	  <property name="phone" column="phone" type="string"></property>
+	</class>
+	
+	
+	<class name="com.example.demo.Teacher" table="teacher">
+		<id name="tid" column="tid" type="int">
+			<generator class="assigned"></generator>
+		</id>
+	  <property name="tname" column="tname" type="string"></property>
+	  <property name="password" column="password" type="string"></property>
+	  <property name="phone" column="phone" type="string"></property>
+	</class>
+	
+	
+	<class name="com.example.demo.Exam" table="exam">
+		<id name="examid" column="examid" type="int">
+			<generator class="assigned"></generator>
+		</id>
+	  <property name="examname" column="examname" type="string"></property>
+	</class>
+
+<!--  	  <list name="questions" cascade="all">
+	<key column="examid"></key>
+	<list-index column="myindex"></list-index>
+	<one-to-many class="com.example.demo.Questions"></one-to-many>
+	</list>
+	
+	
+-->	
+	
+	<class name="com.example.demo.Questions" table="questions">
+      
+      <id name="question" column="question" type="string">
+			<generator class="assigned"></generator>
+	  </id>
+	  <property name="examid" column="examid" type="int"></property>
+	
+	  
+	  <property name="op1" column="option1" type="string"></property>
+	  <property name="op2" column="option2" type="string"></property>
+	  <property name="op3" column="option3" type="string"></property>
+	  <property name="op4" column="option4" type="string"></property>
+	  
+	  <property name="correct" column="correct" type="string"></property>
+	
+	  
+	</class>
+	
+	
+	
+
+</hibernate-mapping> 
